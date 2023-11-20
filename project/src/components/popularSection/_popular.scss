@@ -1,0 +1,100 @@
+.popularSection{
+    background-color: black;
+    min-width: 100%;
+    min-height: 86vh;
+    .popular_text{
+        padding: 20px 0px 10px 10%;
+        color: white;
+        display: flex;
+        justify-content: start;
+        font-size: 20px;
+    }
+    .movies_box{
+        padding: 60px 0px;
+        min-width: 100%;
+        min-height: 80vh;
+        .movies_catagory{
+            min-height: 30px;
+            min-width: 100%;
+            display: flex;
+            gap: 20px;
+            justify-content: end;
+            padding: 0px 40px;
+            align-items: center;
+            margin-bottom: 20px;
+            button{
+                background-color: transparent;
+                border: 0px ;
+                color: gray;
+                transition: 0.7s;
+                cursor: pointer;
+                padding: 0px 15px;
+                border-left: 2px solid gray;
+            }
+            button:hover{
+                transition: 0.7s;
+                color: white;
+            }
+        }
+        .movies_inform{
+            min-width: 100%;
+            min-height: 55vh;
+            padding: 0px 40px 0px 10%;
+            gap: 25px;
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr ;
+
+        }
+    }
+}
+@media only screen and (max-width: 1055px) {
+    .popularSection{
+        .movies_box{
+            .movies_inform{
+                grid-template-columns: 4fr 4fr 4fr ;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 746px) {
+    .popularSection{
+        .movies_box{
+        padding:  0px;
+
+            .movies_inform{
+                grid-template-columns: 6fr 6fr ;
+            }
+        }
+    }
+
+    
+}
+@media only screen and (max-width: 616px) {
+    .popularSection{
+        .popular_text{
+            padding: 20px 0px
+        }
+        .movies_box{
+            .movies_catagory{
+                display: none;
+            }
+            .movies_inform{
+                padding: 0px ;
+                grid-template-columns: 12fr ;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 384px) {
+    .popularSection{
+        .popular_text{
+            padding: 20px 0px
+        }
+        .movies_box{
+            .movies_inform{
+                padding: 0px ;
+                grid-template-columns: 12fr ;
+            }
+        }
+    }
+}

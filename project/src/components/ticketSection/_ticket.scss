@@ -1,0 +1,382 @@
+.ticketSection{
+    min-width: 100%;
+    min-height: 90vh;
+    .ticket_text{
+        padding: 15px 0px 0px 10%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .ticket_box_up{
+        min-width: 100%;
+        min-height: 58.5vh;
+        padding: 5px 0px 0px 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        .ticket_card_1{
+            background-color: #d2cab9;
+            width: 400px;
+            height: 250px;
+            display: flex;
+            .card_left{
+                width: 70%;
+                height: 100%;
+                border-right: 2px dashed gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: start;
+                padding: 10px 20px;
+                .ticket_price{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                }
+                span{
+                    padding: 7px 0px;
+                    border-top: 1px solid gray;
+                    text-align: start;
+                }
+            }
+            .card_right{
+                width: 30%;
+                height: 100%;
+                position: relative;
+                .circle{
+                    background-color: #eaa57f;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                }
+                .buy_button{
+                   border-top: 1px solid gray;
+                    padding: 11px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    gap: 5px;
+                    position: absolute;
+                    bottom: 40px;
+                    right: 20px;
+                    cursor: pointer;
+                    i{
+                        transform: rotate(45deg);
+                    }
+
+                }
+            }
+        }
+        .ticket_card_2{
+            background-color: black;
+            width: 400px;
+            height: 250px;
+            display: flex;
+            color: white;
+            .card_left{
+                width: 70%;
+                height: 100%;
+                border-right: 2px dashed gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: start;
+                padding: 10px 20px;
+                .ticket_price{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                }
+                span{
+                    padding: 7px 0px;
+                    border-top: 1px solid gray;
+                    text-align: start;
+                }
+            }
+            .card_right{
+                width: 30%;
+                height: 100%;
+             
+                position: relative;
+                .circle{
+                    background-color: #EF9797;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                }
+                .buy_button{
+                   border-top: 1px solid gray;
+                    padding: 11px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    gap: 5px;
+                    position: absolute;
+                    bottom: 40px;
+                    right: 20px;
+                    i{
+                        transform: rotate(45deg);
+                    }
+
+                }
+            }
+        }
+        .ticket_card_3{
+            background-color: #F3F3F3;
+            width: 400px;
+            height: 250px;
+            display: flex;
+            .card_left{
+                width: 70%;
+                height: 100%;
+                border-right: 2px dashed gray;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: start;
+                padding: 10px 20px;
+                .ticket_price{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                }
+                span{
+                    padding: 7px 0px;
+                    border-top: 1px solid gray;
+                    text-align: start;
+                }
+            }
+            .card_right{
+                width: 30%;
+                height: 100%;
+             
+                position: relative;
+                .circle{
+                    background-color: #FDF24E;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                }
+                .buy_button{
+                   border-top: 1px solid gray;
+                    padding: 11px 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    gap: 5px;
+                    position: absolute;
+                    bottom: 40px;
+                    right: 20px;
+                    i{
+                        transform: rotate(45deg);
+                    }
+
+                }
+            }
+        }
+    }
+    .ticket_box_down{
+        border-top: 2px solid gray;
+        min-width: 100%;
+        min-height: 22vh;
+        display: grid;
+        padding: 35px 10% 0px;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 1441px) {
+    .ticketSection{
+        min-width: 100%;
+        min-height: 90vh;
+        .ticket_text{
+            padding: 15px 0px 0px 10%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .ticket_box_up{
+            min-width: 100%;
+            min-height: 58.5vh;
+                display: grid;
+            grid-template-columns: auto auto ;
+    
+            
+            .ticket_card_1, .ticket_card_2{
+                width: 500px;
+                height: 300px;
+                .card_left{
+                    h2{
+                        font-size: 40px;
+                    }
+                    .ticket_price{
+                       p{
+                        font-size: 30px;
+                       }
+                    }
+                    span{
+                        font-size: 20px;
+                    }
+                }
+                .card_right{
+                    .circle{
+                        width: 60px;
+                        height: 60px;
+                        top: 25px;
+                        right: 25px;
+                    }
+                    .buy_button{
+                        right: 25px;
+                        bottom: 17px;
+                        font-size: 30px;
+                    }
+                }
+            }
+            
+            .ticket_card_3{
+                width: 500px;
+                height: 300px;
+                margin-top: 50px;
+                .card_left{
+                    h2{
+                        font-size: 40px;
+                    }
+                    .ticket_price{
+                       p{
+                        font-size: 30px;
+                       }
+                    }
+                    span{
+                        font-size: 20px;
+                    }
+                }
+                .card_right{
+                    .circle{
+                        width: 60px;
+                        height: 60px;
+                        top: 25px;
+                        right: 25px;
+                    }
+                    .buy_button{
+                        right: 25px;
+                        bottom: 17px;
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+        .ticket_box_down{
+            grid-template-columns: auto auto auto auto  ;
+            min-width: 100%;
+            min-height: 22vh;
+            margin-top: 30px;
+        }
+    }
+
+}
+@media only screen and (max-width: 1142px) {
+    .ticketSection{
+        .ticket_box_up{
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: auto  ;
+            padding: 0px ;  
+            .ticket_card_1{
+                width: 500px;
+                height: 300px;
+              
+            }
+            .ticket_card_2{
+                margin-top: 50px;
+               
+            }
+            .ticket_card_3{
+                width: 500px;
+                
+            }
+        }
+        .ticket_box_down{
+            grid-template-columns: auto auto auto auto  ;
+            min-width: 100%;
+            min-height: 22vh;
+            margin-top: 30px;
+        }   
+    }
+
+}
+@media only screen and (max-width: 745px) {
+    .ticketSection{
+        .ticket_box_down{
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            grid-template-columns: auto auto ;
+            min-width: 100%;
+            min-height: 22vh;
+            margin-top: 30px;
+        }   
+    }
+}
+@media only screen and (max-width: 518px) {
+    .ticketSection{
+        .ticket_box_up{ 
+            justify-content: center;
+            align-items: center;
+            .ticket_card_1, .ticket_card_2, .ticket_card_3{
+                width: 300px;
+                height: 150px;
+                .card_left{
+                    h2{
+                        font-size: 20px;
+                    }
+                    .ticket_price{
+                       p{
+                        font-size: 15px;
+                       }
+                    }
+                    span{
+                        font-size: 10px;
+                           
+                        }
+                    }
+                
+                .card_right{
+                    .circle{
+                        width: 30px;
+                        height: 30px;
+                        top: 15px;
+                        right: 15px;
+                    }
+                    .buy_button{
+                        right: 8px;
+                        bottom: 19px;
+                        font-size: 12px;
+                        padding: 9px 15px;
+
+                    }
+                }}
+            }
+            .ticket_box_down{
+                justify-content: center;
+                align-items: center;
+                gap: 70px;
+                grid-template-columns: auto;
+                min-width: 100%;
+                min-height: 22vh;
+                margin-top: 30px;
+            }
+        }
+}
+

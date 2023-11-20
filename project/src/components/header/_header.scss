@@ -1,0 +1,383 @@
+#header{
+    height: 100vh;
+    .mySwiper{
+        .swipper_1{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img1.jpg");
+            min-width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            .swipper_present{
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                bottom: 0;
+                color: #fdf24E;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                justify-content: center;
+                padding: 0px 0px 0px 10%;
+                p{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 70px;
+                }
+                .swipper_icons{
+                    margin-top: 40px;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            .film_festival_text{
+                height: 130px;
+                width: 300px;
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                color: white;
+                div{
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: start;
+                    border-bottom: 2px dashed white;
+                    padding: 10px;
+                }
+                p{
+                    font-size: 17px;
+                    padding: 10px;
+
+                }
+            }
+            .swipper_btns{
+                width: 300px;
+                height: 60px;
+                position: absolute;
+                right: 30px;
+                bottom: 60px;
+                display: flex;
+                color: white;
+
+                .swipper_play{
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .swipper_ticket{
+                    border: 2px solid white;
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   transition: 0.7s;
+                    cursor: pointer;
+                }
+                .swipper_ticket:hover{
+                   background-color: white;
+                   color: black;
+                   transition: 0.7s;
+                }
+            }
+        
+        }
+        .swipper_2{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img3.jpg");
+            min-width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .swipper_present{
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                bottom: 0;
+                color: #fdf24E;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                justify-content: center;
+                padding: 0px 0px 0px 10%;
+                p{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 60px;
+                }
+                .swipper_icons{
+                    margin-top: 40px;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            .film_festival_text{
+                height: 130px;
+                width: 300px;
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                color: white;
+                div{
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: start;
+                    border-bottom: 2px dashed white;
+                    padding: 10px;
+                }
+                p{
+                    font-size: 17px;
+                    padding: 10px;
+
+                }
+            }
+            .swipper_btns{
+                width: 300px;
+                height: 60px;
+                position: absolute;
+                right: 30px;
+                bottom: 60px;
+                display: flex;
+                color: white;
+
+                .swipper_play{
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .swipper_ticket{
+                    border: 2px solid white;
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   transition: 0.7s;
+                    cursor: pointer;
+                }
+                .swipper_ticket:hover{
+                   background-color: white;
+                   color: black;
+                   transition: 0.7s;
+                }
+            }
+        }
+        .swipper_3{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/11/h4-rev-img2.jpg");
+            min-width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .swipper_present{
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                bottom: 0;
+                color: #fdf24E;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                justify-content: center;
+                padding: 0px 0px 0px 10%;
+                p{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 70px;
+                }
+                .swipper_icons{
+                    margin-top: 40px;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            .film_festival_text{
+                height: 130px;
+                width: 300px;
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                color: white;
+                div{
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: start;
+                    border-bottom: 2px dashed white;
+                    padding: 10px;
+                }
+                p{
+                    font-size: 17px;
+                    padding: 10px;
+
+                }
+            }
+            .swipper_btns{
+                width: 300px;
+                height: 60px;
+                position: absolute;
+                right: 30px;
+                bottom: 60px;
+                display: flex;
+                color: white;
+
+                .swipper_play{
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .swipper_ticket{
+                    border: 2px solid white;
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   transition: 0.7s;
+                    cursor: pointer;
+                }
+                .swipper_ticket:hover{
+                   background-color: white;
+                   color: black;
+                   transition: 0.7s;
+                }
+            }
+        
+        }
+        .swipper_4{
+            background-image: url("https://coppola.qodeinteractive.com/wp-content/uploads/2021/12/h4-rev-img4a.jpg");
+            min-width: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            .swipper_present{
+                width: 800px;
+                height: 500px;
+                position: absolute;
+                bottom: 0;
+                color: #fdf24E;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: start;
+                justify-content: center;
+                padding: 0px 0px 0px 10%;
+                p{
+                    font-size: 20px;
+                }
+                h1{
+                    font-size: 60px;
+                }
+                .swipper_icons{
+                    margin-top: 40px;
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+            .film_festival_text{
+                height: 130px;
+                width: 300px;
+                position: absolute;
+                top: 30px;
+                right: 50px;
+                color: white;
+                div{
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: start;
+                    border-bottom: 2px dashed white;
+                    padding: 10px;
+                }
+                p{
+                    font-size: 17px;
+                    padding: 10px;
+
+                }
+            }
+            .swipper_btns{
+                width: 300px;
+                height: 60px;
+                position: absolute;
+                right: 30px;
+                bottom: 60px;
+                display: flex;
+                color: white;
+
+                .swipper_play{
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                .swipper_ticket{
+                    border: 2px solid white;
+                    width: 50%;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   transition: 0.7s;
+                    cursor: pointer;
+                }
+                .swipper_ticket:hover{
+                   background-color: white;
+                   color: black;
+                   transition: 0.7s;
+                }
+            }
+        
+        }
+    }
+}
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+  @media only screen and (max-width: 718px) {
+    .header{
+        height: 100vh;
+        .mySwiper{
+            
+            
+            .swipper_1, .swipper_2, .swipper_3, .swipper_4{
+                .swipper_present{
+                    width: 300px;
+                    top: 30px;
+                }
+                .film_festival_text{
+                  display: none;
+
+                }
+                .swipper_btns{
+                    bottom: 10px;
+                    left: 30px;
+                    }
+            
+            }
+            
+        }
+    }
+  
+  }

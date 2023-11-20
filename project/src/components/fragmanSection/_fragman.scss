@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fragmanSection{
+    background-color: white;
+   max-width: 100%;
+   min-height: 80vh;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: center;
+   gap: 30px;
+   padding: 40px 0px 40px 40px;
+   .fragman_box{
+    height: 30vh;
+    position: relative;
+    max-width: 380px;
+    p{
+        transition: 0.6s;
+
+    }
+    p:hover{
+        color: #eaa57f;
+        transition: 0.6s;
+    }
+    img{
+    height: 100%;
+    width: 100%;
+       
+    }
+    .text_box{
+        position: absolute;
+        bottom: 10px;
+        left: 20px ;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        color: white;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 10px 0px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+    }
+    .play{
+        border: 2px solid white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        i{
+            font-size: 20px;
+            color: white;
+            cursor: pointer;
+        }
+    }
+   }
+}
+@media only screen and (max-width: 1321px) {
+    .fragmanSection{
+       grid-template-columns: auto auto ;
+       padding: 40px 0px 0px 40px;
+       .fragman_box{
+        max-width: 440px;
+       }
+    }
+
+}
+@media only screen and (max-width: 974px) {
+    .fragmanSection{
+       grid-template-columns: auto  ;
+       padding: 40px 0px 0px 40px;
+       .fragman_box{
+        max-width: 650px;
+        height: 40vh;
+       }
+    }
+
+}
+@media only screen and (max-width: 426px) {
+    .fragmanSection{
+       grid-template-columns: auto  ;
+       padding: 20px 0px 0px 0px;
+       .fragman_box{
+        max-width: 350px;
+        height: 30vh;
+       }
+    }
+
+}
+@media only screen and (min-width: 1545px) {
+    .fragmanSection{
+       padding: 40px 0px 40px 40px;
+       .fragman_box{
+        max-width: 550px;
+        height: 30vh;
+       }
+    }
+
+}
